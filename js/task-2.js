@@ -14,11 +14,11 @@ const ingredients = [
 const listIngredients = document.querySelector('#ingredients');
 
 // -----для практики------
-const titleEl = document.createElement('h1');
+const titleEl = document.createElement('h2');
 // -------------------------------------------------------------
 // titleEl.fontSize = 16;  -  почему не меняет размер заголовка?
 // -------------------------------------------------------------
-titleEl.textContent = 'Рецепт томатного супа с грибами';
+titleEl.textContent = 'Рецепт томатного супа с грибами:';
 
 console.dir(titleEl);
 // -----------------------
