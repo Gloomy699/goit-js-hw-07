@@ -4,7 +4,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  outline: 2px solid skyblue;
+  /* outline: 2px solid skyblue; */
   max-width: 1200px;
 }
 
@@ -26,4 +26,19 @@
   display: flex;
   width: 320px;
   margin-right: 30px;
+}
+input {
+  margin-top: 20px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
 }
